@@ -21,8 +21,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 from django.urls import path
-from .views import ocr_prescription
+from .views import ocr_prescription_base64
 
 urlpatterns = [
-    path('ocr/', ocr_prescription, name='ocr_prescription'),
+    path('ocr_base64/', ocr_prescription_base64, name='ocr_prescription_base64'),
 ]

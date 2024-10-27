@@ -13,7 +13,9 @@ pillow = "^11.0.0"
 transformers = "^4.46.0"
 torch = "^2.5.0"
 scikit-learn = "^1.5.2"
-
+opencv-python = "^4.10.0.84"
+fuzzywuzzy = "^0.18.0"
+python-levenshtein = "^0.26.0"
 
 [build-system]
 requires = ["poetry-core"]
